@@ -1,5 +1,7 @@
 @media screen and (max-width: 640px) {
-    
+     .navbar{
+        width: 100%;
+    }
     .navbar ul li:not(:last-child){
         border-bottom: 1px solid var(--third-color);
         padding: 15px 0;
@@ -137,6 +139,9 @@
   .container {
     width: 90% !important;
   }
+     .navbar{
+        width: 100%;
+    }
   .navbar ul li:not(:last-child){
     border-bottom: 1px solid var(--third-color);
     padding: 15px 0;
