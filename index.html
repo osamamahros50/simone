@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styling owl carsoule -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styling font aesomew -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- styling bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- styling css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- media screen -->
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Document</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="90">
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg bg-black fixed-top navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand p-3" href="#">
+          <img src="./image/logo-light.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what-i-do">What i Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">Client</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- Start home -->
+    <div
+      id="home"
+      class="home d-flex justify-content-center align-items-center text-center position-relative"
+    >
+      <div class="home-info">
+        <p class="fw-medium">welcome</p>
+        <h2 class="fw-bold mb-4">I`m <span class="auto-type"></span></h2>
+        <p class="mb-4">based in Los Angeles, California.</p>
+        <button
+          type="button"
+          class="btn bg-transparent px-5 py-3 fw-medium rounded-pill my-btn"
+        >
+          Hire Me
+        </button>
+      </div>
+      <div class="arrow position-absolute">
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+      <div class="fixed-icon position-fixed z-3">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+    <!-- End home -->
+    <!-- Start about -->
+    <div id="about" class="about">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">about me</h2>
+          <p>Know me more</p>
+        </div>
+        <div
+          class="about-container pt-5 d-flex justify-content-between align-items-center"
+        >
+          <div class="about-content">
+            <h4 class="mb-3">
+              I'm <span> Simone Olivia,</span> a Web Developer
+            </h4>
+            <p>
+              I help you build brand for your business at an affordable price.
+              Thousands of clients have procured exceptional results while
+              working with our dedicated team. when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book.
+            </p>
+            <p>
+              Delivering work within time and budget which meets clientâ€™s
+              requirements is our moto. Lorem Ipsum has been the industry's
+              standard dummy text ever when an unknown printer took a galley.
+              Lorem Ipsum has been the industry's standard dummy text ever when
+              an unknown printer took a galley.
+            </p>
+          </div>
+          <div class="about-data">
+            <p>Name: <span>:Simone Olivia </span></p>
+            <p>Email: <span class="about-span">chat@simone.com </span></p>
+            <p>Age: <span>28</span></p>
+            <p>From: <span>Los Angeles, California </span></p>
+            <button
+              type="button"
+              class="btn bg-transparent px-5 py-3 fw-medium rounded-pill my-btn mt-3"
+            >
+              Download Cv
+            </button>
+          </div>
+        </div>
+        <div class="row mt-5 gap-5">
+          <div class="col-6 col-md-3 count">
+            <div class="featured-box text-center">
+              <h4 class="text-12 text-muted mb-0">
+                <span class="counter" data-from="0" data-to="10">10</span>+
+              </h4>
+              <p class="mb-0">Years Experiance</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 count">
+            <div class="featured-box text-center">
+              <h4 class="text-12 text-muted mb-0">
+                <span class="counter" data-from="0" data-to="250">250</span>+
+              </h4>
+              <p class="mb-0">Happy Clients</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 count">
+            <div class="featured-box text-center">
+              <h4 class="text-12 text-muted mb-0">
+                <span class="counter" data-from="0" data-to="650">650</span>+
+              </h4>
+              <p class="mb-0">Projects Done</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 count">
+            <div class="featured-box text-center">
+              <h4 class="text-12 text-muted mb-0">
+                <span class="counter" data-from="0" data-to="38">38</span>
+              </h4>
+              <p class="mb-0">Get Awards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End about -->
+
+    <!-- start what i do -->
+    <div id="what-i-do" class="what-i-do">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">services</h2>
+          <p class="text-capitalize">what i do?</p>
+        </div>
+        <div
+          class="what-info d-flex justify-content-between align-items-center mt-5"
+        >
+          <div class="coulmn">
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="info-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <div class="info-content">
+                <h3>UI/UX Design</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-chart-area"></i>
+              </div>
+              <div class="info-content">
+                <h3>Business Analysis</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="coulmn">
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="info-content">
+                <h3>Web Design</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <div class="info-content">
+                <h3>App Design & Develop</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+            <div class="info d-flex">
+              <div
+                class="info-icon d-flex justify-content-center align-items-center rounded-2"
+              >
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <div class="info-content">
+                <h3>SEO Marketing</h3>
+                <p>
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End what i do -->
+
+    <!-- Start resume-->
+    <div id="resume" class="resume">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">summary</h2>
+          <p class="text-capitalize">resume</p>
+        </div>
+
+        <div class="resume-content d-flex flex-wrap gap-5">
+          <div class="column">
+            <h2>My Education</h2>
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2005 - 2008</p>
+              <h3>Bachelor Degree</h3>
+              <p class="text-danger">University of California</p>
+              <p>
+                Lisque ersius interesset his et, in quot quidam ersequeris vim,
+                ad mea essent possim iriure.
+              </p>
+            </div>
+
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2009 - 2012</p>
+              <h3>Master Degree</h3>
+              <p class="text-danger">Harvard University</p>
+              <p>
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2012 - 2013</p>
+              <h3>Jr. UI UX Designer</h3>
+              <p class="text-danger">Themeforest</p>
+              <p>
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <h2>My Experience</h2>
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2014 - 2016</p>
+              <h3>Jr. Product Designer</h3>
+              <p class="text-danger">Dribbble</p>
+              <p>
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2000 - 2004</p>
+              <h3>Computer Science</h3>
+              <p class="text-danger">International University</p>
+              <p>
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+
+            <div class="column-info rounded p-3 mb-4">
+              <p class="badge bg-success">2017 - 2019</p>
+              <h3>Product Designer</h3>
+              <p class="text-danger">Adobe</p>
+              <p>
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2>my skills</h2>
+        <div class="skills d-flex gap-5">
+          <div class="column">
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>web design</h5>
+              <p>65%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 65%"></div>
+            </div>
+
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>HTML/CSS</h5>
+              <p>95%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 95%"></div>
+            </div>
+
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>JavaScript</h5>
+              <p>80%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>React JS</h5>
+              <p>70%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 70%"></div>
+            </div>
+
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>Angular Js</h5>
+              <p>60%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 60%"></div>
+            </div>
+
+            <div
+              class="column-info d-flex justify-content-between align-items-center"
+            >
+              <h5>Bootstrap</h5>
+              <p>99%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bar" style="width: 99%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="button m-auto">
+          <button type="button" class="btn rounded-pill my-btn text-capitalize">
+            download cv <i class="fas fa-download"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End resume-->
+    <!-- Start Portfolio -->
+    <div id="Portfolio" class="Portfolio">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">Portfolio</h2>
+          <p class="text-capitalize">my work</p>
+        </div>
+
+        <ul class="nav justify-content-center mt-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Brand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+        </ul>
+        <div class="portfolio-card">
+          <div class="img position-relative">
+            <img src="./image/project-1.jpg" alt="project-1" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-4.jpg" alt="project-4" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-2.jpg" alt="project-2" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-7.jpg" alt="project-7" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-3.jpg" alt="project-3" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-5.jpg" alt="project-5" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+          <div class="img position-relative">
+            <img src="./image/project-6.jpg" alt="project-6" />
+            <div class="overlay position-absolute">
+              <h5 class="text-white fw-400">Project Title</h5>
+              <span class="text-light">Category</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start client -->
+    <div id="client" class="client">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">Testimonial</h2>
+          <p class="text-capitalize">Client Speak</p>
+        </div>
+
+        <div class="owl-carousel owl-theme client-info">
+          <div class="item rounded-2">
+            <div class="client-contact p-5">
+              <div class="info d-flex align-items-center column-gap-3 mb-4">
+                <div class="info-img">
+                  <img
+                    class="rounded-circle"
+                    src="./image/client-sm-3.jpg"
+                    alt="client-3"
+                  />
+                </div>
+                <div class="info-content">
+                  <p>Dennis Jacques</p>
+                  <span>User from USA</span>
+                </div>
+              </div>
+              <p class="mb-4">
+                â€œOnly trying it out since a few days. But up to now excellent.
+                Seems to work flawlessly. priced simply dummy text of the
+                printing and typesetting industry.â€
+              </p>
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item rounded-2">
+            <div class="client-contact p-5">
+              <div class="info d-flex align-items-center column-gap-3 mb-4">
+                <div class="info-img">
+                  <img
+                    class="rounded-circle"
+                    src="./image/client-sm-1.jpg"
+                    alt="client-1"
+                  />
+                </div>
+                <div class="info-content">
+                  <p>Jay Shah</p>
+                  <span>Founder at Icomatic Pvt Ltd</span>
+                </div>
+              </div>
+              <p class="mb-4">
+                â€œOnly trying it out since a few days. But up to now excellent.
+                Seems to work flawlessly. priced simply dummy text of the
+                printing and typesetting industry.â€
+              </p>
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item rounded-2">
+            <div class="client-contact p-5">
+              <div class="info d-flex align-items-center column-gap-3 mb-4">
+                <div class="info-img">
+                  <img
+                    class="rounded-circle"
+                    src="./image/client-sm-2.jpg"
+                    alt="client-2"
+                  />
+                </div>
+                <div class="info-content">
+                  <p>Patrick Cary</p>
+                  <span>Freelancer from USA</span>
+                </div>
+              </div>
+              <p class="mb-4">
+                â€œOnly trying it out since a few days. But up to now excellent.
+                Seems to work flawlessly. priced simply dummy text of the
+                printing and typesetting industry.â€
+              </p>
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-contact p-5">
+              <div class="info d-flex align-items-center column-gap-3 mb-4">
+                <div class="info-img">
+                  <img
+                    class="rounded-circle"
+                    src="./image/client-sm-4.jpg"
+                    alt="client-4"
+                  />
+                </div>
+                <div class="info-content">
+                  <p>Chris Tom</p>
+                  <span>Chris Tom</span>
+                </div>
+              </div>
+              <p class="mb-4">
+                â€œOnly trying it out since a few days. But up to now excellent.
+                Seems to work flawlessly. priced simply dummy text of the
+                printing and typesetting industry.â€
+              </p>
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End client -->
+    <!-- start contact -->
+    <div id="contact" class="contact">
+      <div class="container">
+        <div class="title position-relative">
+          <h2 class="position-absolute">Contact</h2>
+          <p class="text-capitalize">Get in Touch</p>
+        </div>
+        <div class="contact-info d-flex">
+          <div class="address">
+            <h2>Address</h2>
+            <p class="info">
+              4th Floor, Plot No.22,<br />
+              145 Murphy Canyon Rd. <br />
+              San Diego CA 2028
+            </p>
+            <p>
+              <span><i class="fas fa-phone"></i></span> (060) 444 434 444
+            </p>
+            <p>
+              <span><i class="fas fa-fax"></i></span> (060) 555 545 555
+            </p>
+            <p>
+              <span><i class="fas fa-envelope"></i></span> chat@simone.com
+            </p>
+            <h2>Follow Me</h2>
+          </div>
+          <div class="send">
+            <h2 class="mb-3 text-5 text-uppercase text-center text-md-start">
+              Send us a note
+            </h2>
+            <div class="send-input d-flex gap-3">
+              <div class="send-name w-50">
+                <input
+                  name="name"
+                  type="text"
+                  class="form-control p-3 border-1"
+                  required=""
+                  placeholder="Name"
+                />
+              </div>
+              <div class="send-email w-50">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control p-3 border-1"
+                  required=""
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="send-tetxarea mt-3">
+              <textarea
+                name="form-message"
+                class="form-control"
+                rows="5"
+                required=""
+                placeholder="Tell us more about your needs........"
+              ></textarea>
+            </div>
+            <div class="button m-auto mt-3">
+              <button
+                type="button"
+                class="btn rounded-pill my-btn text-capitalize"
+              >
+                send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End contact -->
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+        <div
+          class="footer-info d-flex justify-content-between align-items-center"
+        >
+          <div class="footer-content">
+            <p>
+              Copyright Â© 2025 <span> <a href="#">osama</a></span
+              >. All Rights Reserved.
+            </p>
+          </div>
+          <ul class="d-flex gap-4">
+            <li class="position-relative"><a href="#">Terms & Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- script owl carousle -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- script animatiom typing -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- script bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Simone Olivie.",
+          "Freelancer.",
+          "Photographer.",
+          "Designer.",
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        smartBackspace: false,
+        loop: true,
+      });
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
