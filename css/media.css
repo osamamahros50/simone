@@ -10,9 +10,10 @@
     font-size: 40px;
   }
   .title h2 {
-    font-size: 70px;
-    left: -70px;
+    font-size: 65px;
+    left: -90px;
     top: -20px;
+    width: 350px;
   }
   .title p {
     font-size: 28px;
@@ -142,6 +143,29 @@
      .navbar{
         width: 100%;
     }
+     .title h2{
+  font-size: 70px;
+  left: -90px;
+  top: -20px;
+  width: 400px;
+}
+  .about-container {
+    flex-direction: column;
+  }
+ 
+  .what-i-do .title h2{
+   left: -120px;
+  }
+  .resume .title h2{
+   left: -120px;
+   top: -40px;
+  }
+  .Portfolio .title h2{
+    left: -120px;
+   }
+   .client .title h2{
+    left: -60px;
+   }
   .navbar ul li:not(:last-child){
     border-bottom: 1px solid var(--third-color);
     padding: 15px 0;
